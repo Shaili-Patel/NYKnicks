@@ -1,0 +1,83 @@
+body.home {
+  background-image: url(imgs/home-bg.gif);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.display {
+  font-size: 45px;
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.popup-content {
+  border-radius: 10px;
+  text-align: center;
+  max-width: 600px;
+  width: 80%;
+}
+
+.popup h2 {
+  color: white;
+}
+
+.popup ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.popup ul li {
+  font-size: 1.1em;
+}
+
+#close-popup {
+  background-color: #006bb6;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  background-color: #f58426;
+  font-family: "pf-uniform", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: white;
+}
+
+#close-popup:hover {
+  background-color: #006bb6;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+P {
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.navbar {
+  color: #006bb6;
+}
