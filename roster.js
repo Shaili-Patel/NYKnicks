@@ -28,23 +28,19 @@ class Team {
                 container.appendChild(row);  // Add the row to the container
             }
 
-            // Create a column div with Bootstrap class to hold a player card
+            // Bootsrtap Card
             const col = document.createElement('div');
             col.className = 'col-md-4';
 
-            // Create a div to contain the player's image and style it
+            // Created a div to contain the player's image and style it
             const imageContainer = document.createElement('div');
             imageContainer.className = 'image-container';
 
-            // Conditional styling: if player role includes 'guard', add a special border
-            if (player.role.toLowerCase().includes('guard')) {
-            }
-
             // Create the image element with responsive Bootstrap class
             const img = document.createElement('img');
-            img.className = 'img-fluid';  // Responsive image that scales with container
+            img.className = 'img-fluid';  // Responsive image which scales with container
             img.src = player.image;       // Set image source URL
-            img.alt = player.name;        // Alt text for accessibility
+            img.alt = player.name;
 
             // Create a button to show more info about the player
             const button = document.createElement('button');
